@@ -1,0 +1,224 @@
+
+body {
+    font-family: Rubik, Helvetica, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.pixel {
+    display: none;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14.5px;
+}
+
+body {
+    -webkit-tap-highlight-color: transparent;
+    font-style: normal;
+    position: relative;
+}
+
+body.fixed {
+    overflow: hidden;
+}
+
+@media (min-width: 1100px) {
+    body {
+        font-weight: 300;
+    }
+}
+
+a {
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+}
+
+b,
+strong {
+    font-weight: 500;
+}
+
+button,
+input,
+select {
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+
+input[type="number"],
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: textfield;
+    appearance: textfield;
+}
+
+h2 {
+    font-weight: inherit;
+}
+
+a,
+img {
+    border: none;
+    outline: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.app {
+    min-height: 100%;
+}
+
+@keyframes opacityTransition {
+    0% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes blurTransition {
+    0% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+    }
+
+    to {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+    }
+}
+
+._tnsg1mjv:empty {
+    height: 300px;
+}
+
+._yz151l7l:empty {
+    background: url(http://c.housingcdn.com/demand/s/client/common/assets/apex-loader.be0b3a94.svg) no-repeat bottom;
+}
+
+._191g6es9._191g6es9:empty {
+    background-size: 100px 100px;
+}
+
+._6i19bv {
+    bottom: 10px;
+}
+
+._wq11wp {
+    z-index: 3;
+}
+
+._1ilbjl56:not(:last-of-type):after {
+    content: "|";
+}
+
+._yq6n1s5a:not(:last-of-type):after {
+    margin: 0 5px;
+}
+
+._1xic1o8l:not(:last-of-type):after {
+    display: inline-block;
+}
+
+._1f46nkob:not(:last-of-type):after {
+    vertical-align: middle;
+}
+
+._xacd1dqp .moe-chrome-style-notification {
+    box-shadow: 0 0 4px #888;
+}
+
+._1qt51skh._1qt51skh .moe-chrome-style-notification {
+    font-size: 11px;
+}
+
+._1lyg1nn1._1lyg1nn1 .moe-chrome-style-notification {
+    font-weight: 400;
+}
+
+._nf6k1n9t .moe-chrome-style-notification {
+    position: fixed;
+}
+
+._xj88wbg9 .moe-chrome-style-notification {
+    z-index: 2147483647;
+}
+
+._8ro31osq .moe-chrome-style-notification-safari {
+    width: 100%;
+}
+
+._yksrgrho .moe-chrome-style-notification-safari {
+    top: 0;
+}
+
+._3so7idpf .moe-chrome-style-notification-safari {
+    left: 0;
+}
+
+._mvzdu67f._mvzdu67f .moe-chrome-style-notification-safari {
+    background-color: #fff;
+}
+
+._1ruhidpf .moe-chrome-style-notification-safari {
+    margin: 0;
+}
+
+._pe5uidpf .moe-chrome-style-notification-safari {
+    padding: 0;
+}
+._css-1cn7om3{
+    font-size: 40px;
+}
+
+
+
+/*------------ add --------*/
+
+@media only screen and (max-width: 1140px){}
+@media only screen and (max-width: 940px){}
+@media only screen and (max-width: 767px){}
+@media only screen and (max-width: 480px){
+    .css-1anl4zw{
+        height: 38px !important;
+    }
+}
+@media only screen and (max-width: 375px){
+    .css-1anl4zw{
+        height: 38px !important;
+    }
+    .css-1mh20vj::before{
+        display: none !important;
+    }
+    .css-11615lq .dashboard-button, .css-11615lq .section
+    .banner-title{
+        font-size: 50px !important;
+        display: none;
+    }
+    .css-1rcmzf8{
+        font-size: 30px;
+    }
+    .css-1cn7om3{
+        font-size: 40px !important;
+    }
+}
